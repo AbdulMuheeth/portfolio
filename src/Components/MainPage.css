@@ -1,0 +1,26 @@
+*{
+    line-height: 1.5rem;
+}
+h1{
+    font-size: 3rem !important;
+    font-weight: 900 !important;
+    text-transform: capitalize !important;
+    letter-spacing: 0.25rem;
+    font-family: 'Great Vibes', cursive;
+
+}
+.sec{
+    padding: 0px 4%;
+}
+
+@media (max-width:576px) {
+    h1{
+        /* margin: 0px 1rem; */
+        font-size: 2rem !important;
+    }
+    .sec{
+        
+        padding: 1rem !important;
+
+    }
+}

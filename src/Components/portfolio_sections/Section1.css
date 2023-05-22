@@ -1,0 +1,142 @@
+
+
+.banner{
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+    position: relative;
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: #514C9CFF;
+    /* justify-content: space-evenly; */
+    z-index: 10;
+    opacity: 0.8;
+}
+
+
+img{
+    width: 100%;
+    position:absolute;
+    bottom:0;
+    overflow-y: hidden !important;
+    /* opacity: 0.5; */
+}
+
+.layer-3{
+    width: 100%;
+    /* z-index: 1; */
+    position:absolute;
+    top:10rem !important;
+    line-height: 1.2rem;
+}
+
+.layer-3 h1,h2{
+    /* margin-top:1.5rem; */
+    letter-spacing: 2px;
+    color:#fff;
+}
+
+.layer-3 h1{
+    font-size: 3.5rem;
+}
+.layer-3 h2
+{
+    font-size: 4rem !important;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+.layer-3 p{
+    width:150rem;
+    max-width:76vw;
+    /* text-align: center; */
+    color:#fff;
+    font-size:1.5rem;
+    margin-bottom:1.5rem;
+    /* transform: translateY(-20px); */
+    opacity: 0.7;
+}
+
+.layer-3 a{
+    text-decoration: none;
+    /* display: block; */
+    text-align: center;
+    /* width: 10rem; */
+    padding:1rem;
+    font-weight: bold;
+    color:#fff;
+    border-radius: 12px;
+    background-color: #1d1d4f;
+}
+
+
+.layer-1{
+    /* width: em; */
+    color: #fff;
+    opacity: 0.6;
+    position: absolute;
+    top: 5%;
+    transform: rotate(30deg) !important;
+    right: 5%;
+}
+
+/* section2 file */
+
+/* .content{
+    background-color: #1d1d4f;
+    padding:60px;
+}
+.content h1{
+    text-align: center; 
+    margin:40px 0px;
+}
+
+.content p {
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-indent: 50px;
+    width:100%;
+    max-width: 900px;
+    margin-top:40px;
+    opacity: 0.7;
+}
+ */
+
+@media(orientation: portrait) {
+    .banner{
+        height: 95vh;
+    }
+    .layer-1{
+        bottom: 9vw;
+    }
+    .layer-3{
+        top:10rem !important;
+    }
+    .layer-4{
+        bottom: 6vw;
+    }
+    .layer-5{
+        bottom: 3vw;
+    }
+    
+}
+
+@media screen and (max-width: 700px)
+{
+
+    .layer-1{
+        /* width: 12em; */
+        width:120%;
+        /* top:2%;
+        right:0%; */
+    }
+
+    .header{
+        
+    }
+
+}
+
+.header{
+    opacity: 1 !important;
+}

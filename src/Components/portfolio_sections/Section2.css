@@ -1,0 +1,89 @@
+.content{
+    /* background-color: #1d1d4f; */
+    /* padding:1rem; */
+    color:#fff;
+    z-index: 1;
+    overflow: hidden;
+    /* min-height: 80vh !important; */
+    /* height: 0vh !important; */
+
+}
+.content h1{
+    /* text-align: center;  */
+    /* text-transform: uppercase; */
+    font-size: 3rem;
+}
+
+.particleBG{
+    /* background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat; */
+    /*width: 100%;
+    height: 100vh;*/
+    /* background: #8000FF; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: absolute;
+    height: 100vh !important;
+    /* width: 100%; */
+    z-index: -1;    
+}
+
+.content p {
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    text-indent: 50px;
+    width:100%;
+    /* max-width: 900px; */
+    margin-top:40px;
+    opacity: 0.7;
+}
+
+.profile{
+    /* display: flex; */
+    /* align-items: flex-start; */
+    height: 25px;      /* Equals maximum image height */
+    width: 160px;
+    border: 1px solid red;
+    /* white-space: nowrap; This is required unless you put the helper span closely near the img */
+    text-align: center;
+    margin: 1em 0;
+}
+
+
+/* .helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+} */
+.profileImg{
+    /* display: block; */
+    position: relative;
+    /* background: #3A6F9A; */
+    /* vertical-align: middle; */
+    max-height: 250px;
+    max-width: 160px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 576px) {
+    
+    .description{
+        -webkit-line-clamp: 20;
+        -webkit-box-orient: vertical;
+    }
+
+    .content p {
+        font-size: 0.8rem !important;
+    }
+
+}
+
+.all{
+    /* height: 100vh !important; */
+    /* position: relative; */
+}
