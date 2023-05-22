@@ -33,14 +33,14 @@ const Section6 = () => {
     ) {
       emailjs
         .send(
-          "service_1hld9ye",
-          "template_fy23c61",
+          process.env.REACT_APP_SERVICE_ID,
+          process.env.REACT_APP_TEMPLATE_ID,
           {
             name: guestName,
             email: guestEmail,
             message: guestMsg,
           },
-          "3KkE0cJ_te_euX7OY"
+          process.env.REACT_APP_PUBLIC_URL
         )
         .then((res) => {
           console.log(res);
