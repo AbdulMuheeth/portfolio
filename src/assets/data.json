@@ -3,99 +3,127 @@
   "nick_name": "Abdul Muheeth",
   "tagline": "a Web Developer passionate about creating innovative and user-friendly online experiences.",
   "email": "shaikabdulmuheeth@gmail.com",
-  "about_me": " Hey there I am Abdul Muheeth , I am a Webdeveloper. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages",
+  "about_me": "I'm Shaik Abdul Muheeth, a passionate web developer specializing in creating dynamic and engaging websites and I have strong background in React.js, JavaScript, Express.js, python, and MongoDB. I recently completed my undergraduate degree in Computer Science. I am currently working as a Programme Analyst Trainee at Cognizant, where I'm exploring the exciting world of IoT and automation, as a trainee I am learning about how to document values, design recipes and test using Siemens Ops Center. I am enthusiastic about taking on new challenges and enjoy collaborating with teams to bring innovative ideas to life. I am always eager to expand my skill set and tackle new projects head-on.",
   "image_url": "https://w7.pngwing.com/pngs/893/926/png-transparent-silhouette-user-icon-profile-silhouette-silhouette-avatar-profile-silhouette-thumbnail.png",
   "experience": {
     "work": [
       {
         "id": "e_w_01",
-        "company": "companyX",
-        "role": "SDE-1",
-        "start": "Jan,2020",
-        "end": "Mar,2021",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passagesLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passagesLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passagesLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passagesLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+        "company": "Cognizant",
+        "role": "Programme Analyst Trainee",
+        "start": "Apr,2023 ",
+        "end": "  Present",
+        "description": "I am exploring the exciting realm of IoT and work automation. In this role as a trainee I learning about documenting values, designing recipes, and testing using Siemens Ops Center."
       },
       {
         "id": "e_w_02",
-        "company": "companyY",
-        "role": "SDE-2",
-        "start": "Mar,2021",
-        "end": "Jun,2022",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
-      },
-      {
-        "id": "e_w_03",
-        "company": "companyZ",
-        "role": "SDE-2",
-        "start": "Jun,2022",
-        "end": "Apr,2023",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
-      },
-      {
-        "id": "e_w_04",
-        "company": "companyXYZ",
-        "role": "SDE-3",
-        "start": "Apr,2023",
-        "end": "Mar,2025",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages"
+        "company": "BlackZoid",
+        "role": "Website Developer Inter",
+        "start": "July,2020  ",
+        "end": "  Sep,2020",
+        "description": "During this Internship I had the opportunity to contribute to the development of e-learning and e-commerce platforms by working with WordPress, I added and modified new features, enabling seamless user experiences and improved functionality."
       }
     ]
   },
+  "education": [
+    {
+      "id": "edu_1",
+      "institute": "Vasireddy Venkatadri Institute of Technology",
+      "core": "Btech - Computer Science",
+      "gpa":"8.88",
+      "start": "Aug, 2019",
+      "end": "Apr,2023"
+    },
+    {
+      "id": "edu_2",
+      "institute": "Sri Chaitanya Junior College",
+      "core": "Intermediate - MPC",
+      "gpa":"10",
+      "start": "Jun, 2017",
+      "end": "Apr,2019"
+    },
+    {
+      "id": "edu_3",
+      "institute": "Sri Chaitanya School",
+      "core": "X class",
+      "gpa":"10",
+      "start": "Apr, 2016",
+      "end": "Apr,2017"
+    }
+  ],
   "skills": [
-    "HTML",
-    "CSS",
-    "SASS",
+    "HTML5",
+    "CSS3",
     "JavaScript",
-    "React",
-    "Vue",
-    "Nuxt",
+    "ReactJS",
     "NodeJS",
-    "Babel",
-    "Jquery",
+    "ExpressJS",
+    "MongoDB",
+    "Python",
     "ES6",
-    "GIT",
-    "GITHUB"
+    "GIT"
   ],
-  "Achievements":[
-    {"title":"Hackathon XYZ","description":"Got Y in the Z hackathon Lorem Ipsum is simply dummy text of the printing and typesetting industry."},
-    {"title":"Exam Z","description":"Won 1st prize in the ZZ Exam Lorem Ipsum is simply dummy text of the printing and typesetting industry."},
-    {"title":"Competition Y","description":"Got X Rank in the Y competition Lorem Ipsum is simply dummy text of the printing and typesetting industry."}
+  "Achievements": [
+    {
+      "title": "Open Source",
+      "description": "Contributed to an Open Source project like IVY and now actively taking part in ReactPlay Open Source by creating 2+ issues and trying to solve them by generating pull requests."
+    },
+    {
+      "title": "Skills",
+      "description": "ReactJS, Javascript,ExpressJS, MongoDB, Python, HTML5, CSS3, Bootstrap5, MUI, GIT."
+    }
   ],
-  "projects":[
+  "projects": [
     {
-      "name":"Project-1",
-      "image_url":"https://imgur.com/QrKJmrf.jpg",
-      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "technologies":["Python","Java","cpp","React"],
-      "links":{"github":"https://github.com","website":"https://demogm.com"}
+      "name": "Secure Text",
+      "image_url": "https://camo.githubusercontent.com/30d74145104d57f238365a2e80b0e084f17b0bea6bb4e90775125cbf8d2338dc/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f69643d31396554325f494b46647656395436596d5165646c6e435f5077696c6471775854",
+      "description": " A MERN stack Web application to store text easily, securely and quickly.",
+      "technologies": ["ReactJS", "ExpressJS", "MongoDB"],
+      "links": {
+        "github": "https://github.com/AbdulMuheeth/online-text-editor",
+        "website": "https://secure-text.netlify.app/"
+      }
     },
     {
-      "name":"Project-2",
-      "image_url":"https://imgur.com/QrKJmrf.jpg",
-      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "technologies":["Java","React","Python","cpp","Java","React","Python","cpp"],
-      "links":{"website":"https://demogm.com"}
+      "name": "Code Snippets",
+      "image_url": "https://camo.githubusercontent.com/e62f91315be06893aa8c08f93df1f89775437be2799f8d778bb3f8ecf527a872/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f69643d317a425279536d5f6f6e6377674479577539424b51756b78657368334b56412d72",
+      "description": "A Web Application to store your code, and take snapshots of your code effectively. ",
+      "technologies": [
+        "ReactJS","MUI","Moncao Editor"
+      ],
+      "links": { 
+      "github":"https://github.com/AbdulMuheeth/Code-Snippets-using-React",  
+      "website": "https://code-snips-using-react.netlify.app/" }
     },
     {
-      "name":"Project-3",
-      "image_url":"https://imgur.com/QrKJmrf.jpg",
-      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "technologies":["Python","Java","cpp","React"],
-      "links":{"github":"https://github.com"}
+      "name": "Alumni Connect",
+      "image_url": "https://drive.google.com/uc?id=1Na4NLT2ZFNWm3nKmHt4VAHn33n9Q2axH",
+      "description": "A College Alumni Website to build strong connection between college and alumni",
+      "technologies": ["ExpressJS","EJS","MongoDB"],
+      "links": { "website":"https://alumni-connect.onrender.com/home",  "github": "https://github.com/AbdulMuheeth/vvit-alumni-connect" }
     },
     {
-      "name":"Project-4",
-      "image_url":"https://imgur.com/QrKJmrf.jpg",
-      "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      "technologies":["Java","React","Python"],
-      "links":{"github":"https://github.com","website":"https://demogm.com"}
-    }],
-     "contact":{
-      "instagram":"https://instagram.com",
-      "twitter":"https://twitter.com",
-      "facebook":"https://facebook.com",
-      "linkedin":"https://linkedin.com",
-      "location2":"https://snazzymaps.com/embed/2369",
-      "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11371.450466744947!2d80.43711625334085!3d16.294656362337307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a755cb1787785%3A0x9f7999dd90f1e694!2sGuntur%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1672133076116!5m2!1sen!2sin"
-     }
+      "name": "Algo-Visualizer",
+      "image_url": "https://drive.google.com/uc?id=1A-EJE_vsFHztoEASKm2Ex1C6B_SU9oqp",
+      "description": "A Web Application to visualize various graph path-finding algorithms.",
+      "technologies": ["ReactJS","Bootstrap5"],
+      "links": {
+        "github": "https://github.com",
+        "website": "https://demogm.com"
+      }
+    },
+    {
+      "name": "Being Bored",
+      "image_url": "https://drive.google.com/uc?id=1noX9ugCazfAVq3cp-c5cvzggw1FxBOTE",
+      "description": "Being Bored is a collection of different websites which we can visit when we are feeling bored",
+      "technologies": ["HTML5","CSS3","JS"],
+      "links": {
+        "github": "https://github.com/AbdulMuheeth/beingbored.site",
+        "website": "https://abdulmuheeth.github.io/beingbored.site/index.html"
+      }
+    }
+  ],
+  "contact": {
+    "linkedin": "https://www.linkedin.com/in/abdul-muheeth-shaik/"
+  }
 }

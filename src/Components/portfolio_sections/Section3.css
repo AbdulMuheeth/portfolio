@@ -103,6 +103,10 @@ div#v-pills-tabContent {
   padding: 0px 2%;
 }
 
+div#v-pills-tab {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 
 @media screen and (max-width: 576px) {
 
@@ -126,6 +130,8 @@ div#v-pills-tabContent {
       padding: 20px;
       /* width: 346px; */
       height: 100%;
+      font-size: 1.5rem !important;
+      text-transform: capitalize;
       border: none;
       /* display: flex; */
       /* flex-direction: row; */

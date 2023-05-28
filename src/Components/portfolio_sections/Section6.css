@@ -13,8 +13,10 @@ body {
 
 .section-6 {
   padding: 0px !important;
-  margin: 0px !important;
-  position: relative;
+  /* margin: 0px !important; */
+  margin: 0px 0px 10px 0px !important;
+  /* position: absolute; */
+  /* position: relative; */
   
 }
 
@@ -128,25 +130,6 @@ nav .contact-anchor {
   font-weight: 500;
 } */
 
-.iframe {
-  /* position: absolute; */
-  display: none;
-  border-radius: 20px;
-  width: 98.8vw;
-  height: 100vh;
-  opacity: 0.3;
-}
-.map:after {
-    border-radius: 20px;
-    display: none;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient( 45deg, rgba(7, 45, 72, 0.8), rgba(65, 65, 65, 0.8) );
-}
 
 .contact-content {
   /* position: absolute; */
@@ -197,7 +180,7 @@ nav .contact-anchor {
 #contact-form {
   width: 40%;
   background-color: white;
-  position: relative;
+  /* position: relativex; */
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -250,11 +233,9 @@ bttn {
   padding: 20px;
 }
 
-h2 {
-}
-
 .info h2 {
-  color: #16f1dc;
+  
+  color: white;
   font-size: 1.5rem;
 }
 
@@ -314,10 +295,9 @@ span.svg{
   .contact-content {
     padding: 10px 0 0;
     display: block;
+    margin-bottom: 15%;
   }
-  .map {
-    display: none;
-  }
+
   .contact {
     width: 100%;
     flex-direction: column-reverse;
@@ -334,45 +314,28 @@ span.svg{
   }
 }
 
-@media screen and (max-height: 660px) {
+@media screen and (max-width: 660px) {
   .contact-content {
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    margin-bottom: 30%;
   }
 }
 
-@media screen and (max-width: 660px) {
-  nav .hamburger {
-    opacity: 1;
-    pointer-events: initial;
+@media screen and (max-width:576px) {
+  #contact-form{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
-  nav div.linkWrapper {
-    top: 0;
-    right: 0;
-    position: fixed;
-    height: 100vh;
-    background-color: rgba(36, 51, 66, 0.9);
-    display: flex;
-    flex-direction: column;
-    padding: 10px 0;
-    box-shadow: -10px 0px 20px rgba(0, 0, 0, 0.3);
-    width: 100%;
-    justify-content: center;
-    will-change: transform;
-    opacity: 0;
-    display: none;
-    pointer-events: none;
-    transition: opacity 0.3s ease-in-out;
+  .other,.other:before{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0px 0px 10px 0px !important;
   }
 
-  nav div .contact-anchor {
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: 300;
-    letter-spacing: 1.5;
-    width: 100%;
-    margin-bottom: 31px;
-    text-align: center;
-    font-size: 38px;
-  }
+    #contact-form h1{
+      font-size: 2rem;
+    }
+    #contact-form label,input{
+      font-size: 1rem;
+    }
 }

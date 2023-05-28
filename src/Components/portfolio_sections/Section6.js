@@ -77,22 +77,22 @@ const Section6 = () => {
 
   return (
     <div className="section-6 sec">
-      <div className="map">
+      {/* <div className="map"> */}
         {/* <iframe src=" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
-        <iframe
+        {/* <iframe
           src={data.contact.location}
           className="iframe"
           width="100%"
           height="100%"
           style={{ border: "none" }}
         ></iframe>
-      </div>
+      </div> */}
 
       <div className="contact-content">
         <div className="contact">
           <div className="other">
             <div className="info">
-              <h2>More Methods </h2>
+              <h2>Let's Connect</h2>
               <h3>Email</h3>
               <div className="svg-wrap">
                 <a

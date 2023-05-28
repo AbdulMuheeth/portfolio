@@ -3,6 +3,7 @@ import { useRef, useState, useMemo, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Text, TrackballControls } from "@react-three/drei";
 import randomWord from "random-words";
+import userData from '../../assets/data.json';
 
 function Word({ children, ...props }) {
   const color = new THREE.Color();
@@ -52,7 +53,6 @@ function Cloud({ count = 4, radius = 28 }) {
 
   useEffect(() => {
     groupRef.current.rotation.x = Math.PI * 2; // Adjust rotation speed as needed
-
   }, []);
 
   useFrame(() => {
@@ -65,14 +65,21 @@ function Cloud({ count = 4, radius = 28 }) {
     const spherical = new THREE.Spherical();
     const phiSpan = Math.PI / (count + 1);
     const thetaSpan = (Math.PI * 2) / count;
+    let skillCounter = 0;
+    let maxSkills = userData.skills.length;
     for (let i = 1; i < count + 1; i++)
       for (let j = 0; j < count; j++)
+      {
+        if(skillCounter>=maxSkills){
+          skillCounter = 0;
+        }
         temp.push([
           new THREE.Vector3().setFromSpherical(
             spherical.set(radius, phiSpan * i, thetaSpan * j)
           ),
-          randomWord(),
+          userData.skills[skillCounter++],
         ]);
+      }
     return temp;
   }, [count, radius]);
 
@@ -89,7 +96,7 @@ function Cloud({ count = 4, radius = 28 }) {
 
 export default function App() {
   return (
-    <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 35], fov: 90 }}>
+    <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 35], fov: 90 }} className="sphere" style={{height:'60vh'}}>
       <fog attach="fog" args={["#202025", 0, 80]} />
       <Cloud count={8} radius={20} />
       <TrackballControls />
